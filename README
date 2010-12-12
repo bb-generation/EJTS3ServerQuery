@@ -1,0 +1,103 @@
+
+EJTS3ServerQuery
+----------------
+
+
+    Table of Contents
+    1. Synopsis
+    2. Features
+    3. Installation
+
+        3.1. Dependencies
+
+    4. More Information
+
+        4.1. How to report bugs
+        4.2. How to get involved
+
+    5. Licensing
+    6. Development
+
+
+
+1. Synopsis
+
+   EJTS3ServerQuery library is a free TS3 ServerQuery library. This means that
+   it provides you with the possibility to connect to a Teamspeak3 server and
+   execute certain ServerQuery commands.
+   EJTS3ServerQuery can be used on any platform supporting Java6.
+    ___________________________________________________________________________
+
+2. Features
+
+    * Connect to the TS3 ServerQuery Port
+    * Select a virtual server and a display name
+    * Get various lists from the server. such as
+      * server list
+      * client list
+      * ban list
+      * complain list
+      * channel list
+    * Move one or more clients to another channel
+    * Add and delete bans
+    * Add and delete complains
+    * Add and delete channels
+    * ...
+    ___________________________________________________________________________
+
+3. Installation
+
+   This library is used by other programs. Therefore please read the README of
+   the program using this library for further information.
+    ___________________________________________________________________________
+
+3.1. Dependencies
+
+    * Oracle Java6
+    * Javadoc
+    ___________________________________________________________________________
+
+4. More Information
+
+   This library is a fork of the JTS3ServerQuery library developed by Stefan
+   Martens. You can get the original version of the JTS3ServerQuery library at
+   http://stefan1200.bplaced.net
+    ___________________________________________________________________________
+
+4.1 How to report bugs
+
+   Bugs can be filed as issues at the Github Issue Tracker at
+   https://github.com/bb-generation/EJTS3ServerQuery/issues or submitted
+   directly to us at bbots@bbgen.net.
+    ___________________________________________________________________________
+
+4.2. How to get involved
+
+   If you are a Java developer and would like to help us develope this library
+   please take a look at our Github Project at
+   https://github.com/bb-generation/EJTS3ServerQuery
+   If you have implemented a new feature, just create a new Issue and attach
+   your patch to it. Take a look at HACKING for further details.
+    ___________________________________________________________________________
+
+5. Licensing
+
+   EJTS3ServerQuery is free software: you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+   
+   EJTS3ServerQuery is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+   
+   You should have received a copy of the GNU Lesser General Public License
+   along with EJTS3ServerQuery.  If not, see <http://www.gnu.org/licenses/>.
+    ___________________________________________________________________________
+
+6. Development
+
+   To get in contact with the developers, write an e-mail to bbots@bbgen.net or join the IRC channel #bbots at irc.freenode.org
+   If you want to the latest version of EJTS3ServerQuery, use
+   `git clone git://github.com/bb-generation/EJTS3ServerQuery.git`
