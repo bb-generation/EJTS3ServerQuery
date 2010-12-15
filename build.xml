@@ -32,6 +32,8 @@
 				<attribute name="Built-By" value="${user.name}"/>
 				<attribute name="Built-Date" value="${TODAY}"/>
 			</manifest>
+
+			<metainf dir="." includes="COPYING,README"/>
 		</jar>
 	</target>
 
